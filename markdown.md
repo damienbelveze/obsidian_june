@@ -5,13 +5,15 @@ Le markdown est devenu le format standard dans lequel sont documentés les pour 
 
 2 histoire du markdown
 
-syntaxe très simple à apprendre permettant d'éditer dans une grande variété de formats (wiki, odt, doc, pdf, html, LaTeX,...) ce qu'on appelle la versatilité. 
+syntaxe très simple à apprendre permettant d'éditer dans une grande variété de formats (wiki, odt, doc, pdf, html, LaTeX,...) ce qu'on appelle la versatilité.
+
+>Le Markdown est un pas vers une forme de décroissance du numérique (low-tech) et répond au principe du Single-Source Publishing qui vise à produire des documents dans différents formats (HTML, ePub, PDF, Word...) à partir d’un seul et même fichier source" (https://eveille.hypotheses.org/5990)
+
 
 Depuis 1984, ceux qui écrivent de la poésie et ceux qui écrivent du code, à quelques exceptions près, n'écrivent plus sur le même support numérique. (le traitement de texte Wordstar vendu avec la microinformatique de l'époque permettait auparavant d'écrire les deux avec le même logiciel)
 
 essor du traitement de texte qui ne permet plus d'écrire du code / maintien parallèle des éditeurs de texte pour les langages informatiques (https://eriac.hypotheses.org/80)
-
->Nous avons donc perdu progressivement la capacité d’écrire dans un langage interprétable par la machine
+"Nous avons donc perdu progressivement la capacité d’écrire dans un langage interprétable par la machine"
 
 3 avantages du markdown
 
@@ -36,3 +38,5 @@ Au lieu d'apprendre à utiliser des interfaces qui changent régulièrement avec
 voir également la frustration d'universitaires qui considèrent que les traitements de texte restent trop attachés à l'impression comme finalité (https://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024)
 
 Obsidian est un éditeur de texte en markdown, comme il y en a beaucoup aujourd'hui. 
+
+voir le mémo sur Markdown

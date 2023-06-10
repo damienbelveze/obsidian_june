@@ -1,5 +1,8 @@
 1 philosophie du logiciel libre
 
+Placer ici la vidéo du TedX avec Stallman https://youtu.be/Ag1AKIl_2GM
+
+
 1.1 Les valeurs du logiciel libre
 
 un logiciel libre est un bien commun.
@@ -32,7 +35,7 @@ Internet est né d'échanges de protocoles et de bouts de programme entre diffé
 Le logiciel libre, dans l'histoire d'Internet est premier par rapport au logiciel propriétaire. 
 Bill Gates est le premier industriel à avoir réclamé la propriété d'un logiciel qu'il avait créé et à en avoir privé une communauté d'utilisateurs de l'usage gratuit. C'était en 1976, pour le système d'exploitation d'Altair 8800 qui allait être commercialisé ensuite sous le nom de MS-DOS. 
 
-Les promoteurs du logiciel libre insistent sur le mot "libre" pour indiquer qu'ils assignent à leur logiciel un objectif d'empowerment, tandis que les utilisateurs de ces logiciels qui ne partagent pas cette philosophie ont tendance à insister sur les garanties d'efficacité du logiciel open source, un logiciel que tout le monde peut contribuer à rendre meilleur (cf. Dominique Cardon, Culture Numérique, p119).
+Les promoteurs du logiciel libre insistent sur le mot "libre" pour indiquer qu'ils assignent à leur logiciel un objectif d'empowerment, tandis que les utilisateurs de ces logiciels qui ne partagent pas cette philosophie ont tendance à insister sur les garanties d'efficacité du logiciel open source, un logiciel que tout le monde peut contribuer à rendre meilleur (cf. Dominique Cardon, Culture Numérique [https://www.sudoc.fr/234586540](https://www.sudoc.fr/234586540), p119).
 
 
 2 logiciel libre dans le domaine de la recherche

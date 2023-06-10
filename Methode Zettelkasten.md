@@ -22,28 +22,27 @@ Luhmann est-il devenu un génie parce qu'il a inventé un système de notes comp
 
 ---
 
- <img src="https://obsidian.dbelveze.fr/assets/zettelkasten1B.png">       
+![](images/zettelkasten1B.png)       
 Notes prises dans la matrice (exemple : un cahier imprimé) 
 
 ---
 
-<img src="https://obsidian.dbelveze.fr/assets/zettelkasten2B.png">
+![](images/zettelkasten2B.png)
 notes volantes, pas de liens (exemple : des post-its)
 
 ---
 
-<img src="https://obsidian.dbelveze.fr/assets/zettelkasten3B.png">
+![](images/zettelkasten3B.png)
 notes rangées par catégories / dossiers 
 
 ---
 
 - Pas de rangement d'une note dans deux catégories 
 
-- Comment ranger facilement une note dans une catégorie plus récente et plus pertinente ? <!-- element class="fragment" data-fragment-index="1" -->
-
+- Comment ranger facilement une note dans une catégorie plus récente et plus pertinente ? 
 ---
 
-<img src="https://obsidian.dbelveze.fr/assets/zettelkasten4B.png">
+![](images/zettelkasten4B.png)
 notes rangées par tags 
 
 ---
@@ -54,7 +53,7 @@ notes rangées par tags
 
 ---
 
- <img src="https://obsidian.dbelveze.fr/assets/zettelkasten5B.png">
+![](images/zettelkasten5B.png)
 notes rangées liées par des liens et des rétroliens
 
 ---
@@ -68,13 +67,13 @@ notes rangées liées par des liens et des rétroliens
 ---
 
  
-<img src="https://obsidian.dbelveze.fr/assets/zettelkasten7.jpg">
+![](images/zettelkasten7.jpg)
 
 arborescence ou horizontalité ?
 
 ---
 
-<img src="https://obsidian.dbelveze.fr/assets/zettelkasten8B.png">
+![](images/zettelkasten8B.png)
 
 --- 
 
@@ -82,10 +81,6 @@ arborescence ou horizontalité ?
 
 - nécessaire dans un index imprimé, il devient facultatif dans le monde numérique
 - les logiciels permettent de renommer des notes sans que les liens vers ces notes soient rompus
-- Ces identifiants sont pourtant, selon [[Arthur Perret]], le gage d'une véritable pérennité de nos notes
+- Ces identifiants sont pourtant, selon Arthur Perret, le gage d'une véritable pérennité de nos notes
 	
----
-
-<img src="https://obsidian.dbelveze.fr/assets/graphe_obsidian2.png">
-
 ---
