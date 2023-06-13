@@ -1,9 +1,9 @@
 <map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Obsidian" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1686389569532" STYLE="oval">
+<node TEXT="Obsidian" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1686403405541" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -76,7 +76,9 @@
 </node>
 <node TEXT="plain text" ID="ID_1353947867" CREATED="1686388068567" MODIFIED="1686393683503" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666">
 <node TEXT="traitement de texte" ID="ID_1630902366" CREATED="1686388238788" MODIFIED="1686388350239"/>
-<node TEXT="markdown" ID="ID_1835238854" CREATED="1686388287221" MODIFIED="1686393690192" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666"/>
+<node TEXT="markdown" ID="ID_1835238854" CREATED="1686388287221" MODIFIED="1686393690192" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666">
+<node TEXT="memo markdown" ID="ID_1908420419" CREATED="1686403329040" MODIFIED="1686403368348" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666"/>
+</node>
 <node TEXT="code (Python, R, etc.)" ID="ID_1940970855" CREATED="1686388355651" MODIFIED="1686388369842"/>
 </node>
 <node TEXT="écriture académique" ID="ID_1838898991" CREATED="1686388132814" MODIFIED="1686388172372">
@@ -125,7 +127,7 @@
 </node>
 </node>
 <node TEXT="PKM (productivité)" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_325272411" CREATED="1686389902536" MODIFIED="1686394029236" COLOR="#ffffff" BACKGROUND_COLOR="#ff6666">
-<arrowlink DESTINATION="ID_576146128" STARTINCLINATION="-87.75 pt;191.99999 pt;" ENDINCLINATION="-36 pt;79.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_576146128" STARTINCLINATION="-87 pt;191.99999 pt;" ENDINCLINATION="-35.25 pt;79.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#007c00"/>
 <node TEXT="Zettelkasten" ID="ID_897842887" CREATED="1686389915000" MODIFIED="1686389919050"/>
 </node>

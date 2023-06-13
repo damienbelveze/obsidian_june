@@ -1,3 +1,4 @@
+
 # 1. Matin
 
 ## 1.1 installation
@@ -36,6 +37,7 @@ Les noeuds surlignés en orange indiquent comment les notes peuvent être liées
 - insérer le tableau PKM.ods dans la note "jardin_numérique"
 - insérer une vidéo de Richard Stallman dans la note "logiciel_libre"
 - télécharger depuis un site web une belle image de pierre d'obsidienne, enregistrer cette image dans le dossier images. Faites le lien de telle sorte que cette image s'affiche dans la note "Obsidian"
+- inclure dans la note Obsidian le PDF *Obsidian_carte_mentale.pdf*
 
 ## 1.4. Modèles, tags et alias
 
@@ -72,7 +74,7 @@ déplacer cette note dans le dossier Modeles
 Aller dans les paramètres, dans les paramètres du plugin modèle, indiquer le chemin relatif vers le "modèle A". 
 Définir un raccourci-clavier pour l'inclusion du modèle dans une nouvelle fiche (par exemple Ctrl+maj+M)
 
-# Après-midi
+# 2. Après-midi
 
 ## 2.1 CSS
 
@@ -120,12 +122,50 @@ Si ce n'est fait, faire installer Pandoc par les étudiants.
 Présenter Pandoc et la manière de passer des commandes en Shell. 
 Faire une démo de démonstration simple (pandoc fichier_source.md -o fichier destination.htm)
 
+On peut utiliser Pandoc pour convertir en même temps plusieurs fichiers ayant la même extension : 
+```
+for f in *.odt; do pandoc "$f" -s -t markdown -o "${f%.odt}.md"; done
+```
+
+cette commande convertit tous les fichiers en open document qui se trouvent dans le répertoire en fichiers en markdown. 
+
 ### 2.3.1 markdown vers html
 
+rajouter l'argument *Standalone* pour que les images soient bien prises en compte pendant la conversion. 
+
+pandoc -S fichier_source.md -o fichier_destination.html
+
+Injecter du CSS lors de la conversion : 
+
+pandoc -s fichier_source.md -H feuille.css -o fichier_destination.html
+
+Essayer avec la note obsidian et la feuille de style markdown2html.css
 
 ### 2.3.2 markdown vers pdf
 
 rappeler qu'on peut faire un export en PDF d'une note depuis l'interface d'Obsidian mais que cet export ne pourra pas gérer les références héritées de Zotero. 
 
+On a au préalable téléchargé le style nature.csl depuis Zotero ([lien direct](https://www.zotero.org/styles?q=id%3Anature)) Dans cet exemple *markdown.bib* contient les références bibliographiques inscrites dans le texte de la note *markdown.md* 
+
+**pdf-engine** = choix du logiciel qui va assurer la conversion du markdown vers le PDF  
+**-f** = format de départ  
+**-o** = nom du fichier attendu comme résultat  
+**--citeproc** = package de pandoc qui va _parser_ les références bibliographiques en bibtex
+ **markdown+smart** : signifie qu'on ajoute le composant *smart* à Markdown ; ce n'est pas du tout obligatoire, mais cela ajoute quelques fonctionnalités de plus (voir [ici](https://daringfireball.net/projects/smartypants/]))
+
+```
+pandoc '.\markdown vers PDF.md'
+	--bibliography=obsidian_urfist.bib
+	--csl=nature.csl
+	--pdf-engine=xelatex 
+	--citeproc -f markdown+smart -o 'markdown vers PDF.pdf'
+```
+
+Vous pouvez aussi tester le plugin d'Oliver Balfour [**Pandoc for Obsidian**](https://github.com/OliverBalfour/obsidian-pandoc)en le chargeant depuis les plugins communautaires. 
+Il vous faudra sans doute ajouter dans les paramètres le lien vers le fichier biblio et vers la feuille de style CSL pour que cela fonctionne bien. 
 
 
+### 2.3.3 What else ?
+
+Parcourez la galerie des plugins communautaires et cherchez deux ou trois plugins à tester dont vous pensez qu'ils pourraient être utiles. 
+Téléchargez-les et testez-les. 
