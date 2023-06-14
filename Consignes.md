@@ -1,5 +1,7 @@
 
-# 1. Matin
+Les indications suivantes sont rédigées à l'intention de l'animateur mais peuvent aussi servir aux apprenants pour se repérer dans le déroulé de l'atelier. 
+
+# 1. Matin (3 heures)
 
 ## 1.1 installation
 
@@ -7,31 +9,30 @@ aller sur https://github.com/damienbelveze/obsidian_june
 télécharger l'archive (zip) sur le bureau
 dézipper
 ouvrir Obsidian
-Nouveau coffre à partir d'un dossier existant. 
+Cliquer sur "Nouveau coffre à partir d'un dossier existant". 
 Sélectionner le dossier Obsidian_June
 
 ### 1.2 Présentation d'Obsidian et de la journée avec la carte mentale
 
-le présentateur ouvre la carte mentale avec Freeplane et commente les branches. 
+Ouvrir la carte mentale (.mm) avec Freeplane et commenter les branches. 
 
 Au niveau de Zettelkasten, montrer comment une note peut donner lieu à un diaporama
 (faire activer le plugin par défaut "Diapositives")
-Le présentateur explique les similarités et les différences entre la méthode Zettelkasten et l'usage d'Obsidian. 
+Expliquer les similarités et les différences entre la méthode Zettelkasten et l'usage d'Obsidian. 
 
-Présentation de Markdown (cf note markdown et markdown_memo)
+Présenter la syntaxe Markdown (cf note [[markdown]] et [[markdown_memo]])
 
 Notes capables de contenir du texte et du code mélangés dans un format globalement en markdown
-Faire une démo de l'exécution d'un code avec le plugin Execute-code. 
+Faire une démo de l'exécution d'un code avec le plugin Execute-code (par exemple en récupérant ce code [[Mode d'emploi d'Obsidian#exécuter du code dans une note]])
 
 
 ## 1.3. Créer le graphe de notes
 
 
-Les noeuds surlignés en orange indiquent comment les notes peuvent être liées entre elles. Pour chacun de ces noeuds surlignés existe une note. 
+Dans la carte mentale, les noeuds surlignés en orange indiquent comment les notes peuvent être liées entre elles. Pour chacun de ces noeuds surlignés existe une note. 
 
 - Faire les liens internes avec des wikiliens.
 - appliquer aux titres la bonne syntaxe selon leurs niveaux
-- appliquer le style citation aux textes écrits entre guillemets
 - restaurer les listes à puce
 - restaurer les liens externes
 - insérer le tableau PKM.ods dans la note "jardin_numérique"
@@ -74,7 +75,7 @@ déplacer cette note dans le dossier Modeles
 Aller dans les paramètres, dans les paramètres du plugin modèle, indiquer le chemin relatif vers le "modèle A". 
 Définir un raccourci-clavier pour l'inclusion du modèle dans une nouvelle fiche (par exemple Ctrl+maj+M)
 
-# 2. Après-midi
+# 2. Après-midi (3 h)
 
 ## 2.1 CSS
 
@@ -83,6 +84,8 @@ aller chercher un bout de code CSS dans [la galerie de Akashagarwal](https://git
 coller ce bout de code CSS ('snippet') dans le document texte
 renommer ce document texte (nom de fichier + extension .css au lieu de .txt)
 Aller dans Apparence (en bas de la fenêtre), recharger la liste des snippets CSS et activer le fichier qui apparaît. 
+Pour en savoir plus : [[Mode d'emploi d'Obsidian#9. changer le CSS]]
+
 
 ## 2.2 Lien avec Zotero
 
@@ -164,8 +167,21 @@ pandoc '.\markdown vers PDF.md'
 Vous pouvez aussi tester le plugin d'Oliver Balfour [**Pandoc for Obsidian**](https://github.com/OliverBalfour/obsidian-pandoc)en le chargeant depuis les plugins communautaires. 
 Il vous faudra sans doute ajouter dans les paramètres le lien vers le fichier biblio et vers la feuille de style CSL pour que cela fonctionne bien. 
 
+### 2.3.3 Markdown vers un fichier Word en utilisant un template
 
-### 2.3.3 What else ?
+Dans le cas d'une production de documents pour une entreprise ou un collectif par exemple, on n'a plus à se soucier de la mise en page : elle est réalisée à travers un document word qui sert de template. 
+On va rédiger librement du texte (sans s'encombrer l'esprit avec cette mise en page) et au final utiliser Pandoc pour convertir ce texte en format word mais en suivant le template de l'entreprise. 
 
-Parcourez la galerie des plugins communautaires et cherchez deux ou trois plugins à tester dont vous pensez qu'ils pourraient être utiles. 
-Téléchargez-les et testez-les. 
+```pandoc
+pandoc fichier_source.md --reference-doc=template.docx -o fichier_destination.docx
+```
+
+faire un essai avec le template fourni dans le coffre : template.docx
+
+
+## 2.4 What else ?
+
+Pour finir, demander aux apprenants de parcourir la galerie des plugins communautaires et de chercher deux ou trois plugins à tester dont ils pensent qu'ils pourraient leur être utiles. 
+Leur proposer de les télécharger, activer et de les tester.
+
+S'ils le préfèrent, leur proposer de parcourir les chapitres du [[mode d'emploi d'Obsidian]] et de s'arrêter aux passages qui les intéressent pour mettre en pratique ce qui vous est proposé dans ce guide.  
