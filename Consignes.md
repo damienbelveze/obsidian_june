@@ -14,7 +14,7 @@ Sélectionner le dossier Obsidian_June
 
 ### 1.2 Présentation d'Obsidian et de la journée avec la carte mentale
 
-Ouvrir la carte mentale (.mm) avec Freeplane et commenter les branches. 
+Ouvrir la carte mentale (.mm) avec Freeplane et commenter les branches (noter qu'on peut également faire des cartes mentales à l'intérieur d'Obsidian, puisqu'Obsidian intègre [[mermaid]]) 
 
 Au niveau de Zettelkasten, montrer comment une note peut donner lieu à un diaporama
 (faire activer le plugin par défaut "Diapositives")
@@ -24,21 +24,16 @@ Présenter la syntaxe Markdown (cf note [[markdown]] et [[markdown_memo]])
 
 Notes capables de contenir du texte et du code mélangés dans un format globalement en markdown
 Faire une démo de l'exécution d'un code avec le plugin Execute-code (par exemple en récupérant ce code [[Mode d'emploi d'Obsidian#exécuter du code dans une note]])
+Attention pour exécuter le code, il faut être en mode lecture. En cas d'erreur, voir le [[résolution de problèmes#execute-code|registre des solutions]]
 
 
 ## 1.3. Créer le graphe de notes
 
 
-Dans la carte mentale, les noeuds surlignés en orange indiquent comment les notes peuvent être liées entre elles. Pour chacun de ces noeuds surlignés existe une note. 
 
-- Faire les liens internes avec des wikiliens.
-- appliquer aux titres la bonne syntaxe selon leurs niveaux
-- restaurer les listes à puce
-- restaurer les liens externes
-- insérer le tableau PKM.ods dans la note "jardin_numérique"
-- insérer une vidéo de Richard Stallman dans la note "logiciel_libre"
-- télécharger depuis un site web une belle image de pierre d'obsidienne, enregistrer cette image dans le dossier images. Faites le lien de telle sorte que cette image s'affiche dans la note "Obsidian"
-- inclure dans la note Obsidian le PDF *Obsidian_carte_mentale.pdf*
+Dans la carte mentale, les [[unicode|nœuds]] surlignés en orange indiquent comment les notes peuvent être liées entre elles. Pour chacun de ces nœuds surlignés existe une note. 
+
+Aller sur la note [[markdown]] et suivre les consignes qui sont inscrites en commentaires en vous servant de la feuille d'aide sur Markdown. 
 
 ## 1.4. Modèles, tags et alias
 
@@ -91,18 +86,21 @@ Pour en savoir plus : [[Mode d'emploi d'Obsidian#9. changer le CSS]]
 
 Expliquer avec un schéma comment les deux applications vont pouvoir dialoguer entre elles. 
 Charger le plugin betterbibtex pour Zotero
+
+### Le plugin Citations
+
 Charger le plugin Citations de Jon Gauthier
 S'il s'agit du premier plugin communautaire que l'on télécharge, expliquer ce qu'est un plugin communautaire et comment on les installe et on les active. 
 Si le parefeu de la pièce où a lieu la formation gène le chargement du plugin, faire charger le plugin manuellement depuis Github. 
 
 Demander aux étudiants d'entrer dans Zotero les sources mentionnées dans la note "markdown". 
 
-| source | note |
-|:---|:---:|
-|  https://eveille.hypotheses.org/5990  | Eveille   | 
-| https://eriac.hypotheses.org/80 | Julien Dehut |
-| https://www.sudoc.abes.fr/cbs/DB=2.1/SRCH?IKT=12&TRM=260187429 | Julie Denouel |
-| https://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024 | Vitali-Rosati |
+| source                                                                    |     note      |     |
+| :------------------------------------------------------------------------ | :-----------: | --- |
+| https://eveille.hypotheses.org/5990                                       |    Eveille    |     |
+| https://eriac.hypotheses.org/80                                           | Julien Dehut  |     |
+| https://www.sudoc.abes.fr/cbs/DB=2.1/SRCH?IKT=12&TRM=260187429            | Julie Denouel |     |
+| https://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024 | Vitali-Rosati |     |
 
 Créer une collection dans Zotero avec ces documents (vérifier que les références sont complètes)
 Exporter la collection en biblatex en gardant un jour (synchronisant avec Zotero), envoyer le fichier bib (par exemple sous le nom de markdown.bib) dans le coffre sous le dossier *biblio*
@@ -114,6 +112,15 @@ Définier un raccourci-clavier pour l'insertion de notes biblio dans le texte (p
 Au moyen de ce raccourci-clavier, insérer les quatre appels de citation en lien et place des URL mentionnées ci-dessus. 
 
 A la fin de la note Markdown, ajouter un titre *Références*
+
+### Le plugin Zotero Integration
+
+
+
+
+
+
+
 
 
 ## 2.3 Export en PDF avec Pandoc
@@ -185,3 +192,4 @@ Pour finir, demander aux apprenants de parcourir la galerie des plugins communau
 Leur proposer de les télécharger, activer et de les tester.
 
 S'ils le préfèrent, leur proposer de parcourir les chapitres du [[mode d'emploi d'Obsidian]] et de s'arrêter aux passages qui les intéressent pour mettre en pratique ce qui vous est proposé dans ce guide.  
+
