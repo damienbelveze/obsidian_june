@@ -8,7 +8,7 @@ Les indications suivantes sont rédigées à l'intention de l'animateur mais peu
 aller sur https://github.com/damienbelveze/obsidian_june
 télécharger l'archive (zip) sur le bureau
 dézipper
-ouvrir Obsidian
+ouvrir l'application Obsidian
 Cliquer sur "Nouveau coffre à partir d'un dossier existant". 
 Sélectionner le dossier Obsidian_June
 
