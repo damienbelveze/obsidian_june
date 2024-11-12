@@ -116,9 +116,24 @@ A la fin de la note Markdown, ajouter un titre *Références*
 ### Le plugin Zotero Integration
 
 
+Le Plugin Zotero Integration est actuellement le plugin le plus populaire lié à Zotero sur Obsidian. 
+Pour l'installer, aller dans les plugins communautaires, chercher Zotero integration, installer le plugin et comme d'habitude : **n'oubliez pas d'activiter les plugins que vous installez !**
+
+Dans votre coffre, créer un dossier où iront les notes exportées de zotero (par exemple zotero_notes)
+
+dans le menu "database", choisir Zotero
+dans note import location, indiquer le chemin vers ce dossier que vous venez de créer (zotero_notes)
+
+Dans le format de citation, vous pouvez laisser le nom du format (format #1). Choisir ensuite "pandoc"
+
+paramétrez les raccourcis clavier nécessaires pour le fonctionnement du plugin. 
 
 
+### le plugin Pandoc Reference List
 
+Ce plugin nécessite que [[pandoc]] soit bien installé sur la machine. Il permet d'afficher dans une colonne à droite de la note selon une norme bibliographique choisie par l'utilisateur, les références comprises dans la note et d'en faire une bibliographie normée. 
+Pour savoir, comment cela fonctionne, se reporter à la note [[Pandoc Reference List]]
+Pandoc Reference List peut fonctionner en lien avec le plugin Citations ou bien avec le plugin Zotero Integration. 
 
 
 

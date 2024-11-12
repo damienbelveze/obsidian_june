@@ -55,13 +55,18 @@ Aaron Swartz et John Gruber ont inventé le markdown plus simple à utiliser que
 Au lieu d'apprendre à utiliser des interfaces qui changent régulièrement avec les changements de version et n'engendrent qu'un savoir restreint à l'éditeur de texte, apprenons plutôt le langage homme-machine pour compiler du texte avec des instructions de mise en forme. 
 
 
-voir également la frustration d'universitaires qui considèrent que les traitements de texte restent trop attachés à l'impression comme finalité (https://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024)
+voir également la frustration d'universitaires qui considèrent que les traitements de texte restent trop attachés à l'impression de documents comme finalité (https://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024)
 
 Obsidian est un éditeur de texte en markdown, comme il y en a beaucoup aujourd'hui. 
 
 <!-- dans la ligne ci-dessous, faire le lien avec la fiche comprenant le memo markdown -->
 
 voir le mémo sur Markdown
+
+Voici les éléments de base de la syntaxe Markdown, ils sont très rapides à maîtriser :
+
+<!-- intégrer  ci-dessous le PDF markdown_cheatsheet.pdf -->
+
 
 4. Références
 
@@ -77,6 +82,7 @@ voir le mémo sur Markdown
 - [ ] : insertion de texte en $\LaTeX$
 - [ ] : création d'une fiche sur Aaron Swartz
 - [ ] : création d'un lien vers la fiche markdown
+- [ ] : insertion d'un PDF dans une note (markdown_cheatsheet.pdf)
 - [ ] : insertion des références depuis Zotero avec le plugin de votre choix (Citations ou Zotero Integration)
 - [ ] : affichage de la liste des références liées à la note
 - [ ] : extraction de la note sous forme de PDF (avec le convertisseur intégré d'Obsidian)
