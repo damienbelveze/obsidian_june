@@ -158,13 +158,13 @@ cette commande convertit tous les fichiers en open document qui se trouvent dans
 
 rajouter l'argument *Standalone* pour que les images soient bien prises en compte pendant la conversion. 
 
-pandoc -S fichier_source.md -o fichier_destination.html
+``pandoc -s document.md -o document.html``
 
 Injecter du CSS lors de la conversion : 
 
-pandoc -s fichier_source.md -H feuille.css -o fichier_destination.html
+``pandoc -s fichier_source.md -H feuille.css -o fichier_destination.html``
 
-Essayer avec la note obsidian et la feuille de style markdown2html.css
+Essayer avec la note "Jardins Numériques" et la feuille de style markdown2html.css
 
 ### 2.3.2 markdown vers pdf
 
@@ -179,11 +179,12 @@ On a au préalable téléchargé le style nature.csl depuis Zotero ([lien direct
  **markdown+smart** : signifie qu'on ajoute le composant *smart* à Markdown ; ce n'est pas du tout obligatoire, mais cela ajoute quelques fonctionnalités de plus (voir [ici](https://daringfireball.net/projects/smartypants/]))
 
 ```
-pandoc '.\markdown vers PDF.md'
-	--bibliography=obsidian_urfist.bib
+pandoc document.md
+	--bibliography=markdown.bib
 	--csl=nature.csl
 	--pdf-engine=xelatex 
-	--citeproc -f markdown+smart -o 'markdown vers PDF.pdf'
+	--citeproc -f markdown+smart 
+	-o document.pdf
 ```
 
 Vous pouvez aussi tester le plugin d'Oliver Balfour [**Pandoc for Obsidian**](https://github.com/OliverBalfour/obsidian-pandoc)en le chargeant depuis les plugins communautaires. 
@@ -195,7 +196,7 @@ Dans le cas d'une production de documents pour une entreprise ou un collectif pa
 On va rédiger librement du texte (sans s'encombrer l'esprit avec cette mise en page) et au final utiliser Pandoc pour convertir ce texte en format word mais en suivant le template de l'entreprise. 
 
 ```pandoc
-pandoc fichier_source.md --reference-doc=template.docx -o fichier_destination.docx
+pandoc document.md --reference-doc=template.docx -o document.docx
 ```
 
 faire un essai avec le template fourni dans le coffre : template.docx
