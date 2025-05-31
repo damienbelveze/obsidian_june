@@ -1,3 +1,9 @@
+---
+tags:
+  - référence
+---
+
+
 1 philosophie du logiciel libre
 
 Placer ici la vidéo du TedX avec Stallman https://youtu.be/Ag1AKIl_2GM

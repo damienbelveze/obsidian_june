@@ -1,3 +1,8 @@
+---
+tags:
+  - référence
+---
+
 <!-- restaurer les titres avec des # -->
 
 1 Définition
