@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 
 Les indications suivantes sont rédigées à l'intention de l'animateur mais peuvent aussi servir aux apprenants pour se repérer dans le déroulé de l'atelier. 
 
@@ -12,9 +15,9 @@ ouvrir l'application Obsidian
 Cliquer sur "Nouveau coffre à partir d'un dossier existant". 
 Sélectionner le dossier Obsidian_June
 
-### 1.2 Présentation d'Obsidian et de la journée avec la carte mentale
+### 1.2 Présentation d'Obsidian et de la journée avec le canvas de la formation
 
-Ouvrir la carte mentale (.mm) avec Freeplane et commenter les branches (noter qu'on peut également faire des cartes mentales à l'intérieur d'Obsidian, puisqu'Obsidian intègre [[mermaid]]) 
+Ouvrir le fichier [[Formation,_urfist.canvas|Formation,_urfist]] et commenter les branches.
 
 Au niveau de Zettelkasten, montrer comment une note peut donner lieu à un diaporama
 (faire activer le plugin par défaut "Diapositives")
